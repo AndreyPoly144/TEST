@@ -1,0 +1,67 @@
+* { box-sizing: border-box; padding: 0; margin: 0; font-family: "JetBrains Mono"}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 323px;
+    display: flex;
+    flex-direction: column;
+}
+.register label{
+    padding-left: 10px ;
+
+}
+input{
+    height: 40px;
+    margin: 10px 10px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 2px solid #b8b8b8;
+    font-size: 22px;
+}
+.button{
+    cursor: pointer;
+    background-color: #efefef;
+}
+.button:hover{
+    background-color: #dedede;
+    transition: background-color 0.1s linear;
+}
+
+a{
+    color: #28abff;
+    padding: 5px 5px 5px 5px;
+}
+p{
+    font-size: 18px;
+}
+.err{
+    color: red;
+    font-size: 18px;
+    padding-left: 10px;
+
+}
+.reg{
+    color: #15ff00;
+    font-size: 18px;
+    padding: 10px 0 0 10px;
+}
+.hidden{
+    visibility: hidden;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.none{
+    display: none;
+}
+.redinput{
+    border-color: red;
+}
+.g-recaptcha{
+    margin: 0 auto;
+}
